@@ -1,0 +1,35 @@
+cities=['Shanghai','New York','Beijing','London','Paris']
+print(cities)
+print(sorted(cities))
+print(cities)
+print(sorted(cities,reverse=True))
+print(cities)
+cities.reverse()
+print(cities)
+cities.reverse()
+print(cities)
+cities.sort()
+print(cities)
+cities.sort(reverse=True)
+print(cities)
+for i in range(1,21):print(i)
+nums=[i for i in range(1,1000001)]
+for i in nums:print(i,end=' ')
+print('\n'+str(max(nums))+'\t'+str(min(nums)))
+product=0
+for i in nums:product+=i
+print(product)
+for i in range(1,21,2):print(i,end=' ')
+print()
+multiples=[i for i in range(3,31,3)]
+for i in multiples:print(i,end=' ')
+print()
+cubes=[i**3 for i in range(1,11)]
+for i in cubes:print(i,end=' ')
+print()
+print('The first three items in the cubes are:')
+for i in cubes[:3]:print(i,end=' ')
+print('\nThree items from the middle of the cubes are:')
+for i in cubes[3:6]:print(i,end=' ')
+print('\nThe last three items in the cubes are:')
+for i in cubes[-3:]:print(i,end=' ')
